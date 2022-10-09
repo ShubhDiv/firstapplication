@@ -1,0 +1,132 @@
+
+Git & GIT HUB
+--------------------
+
+Git is basically called as a version control system.
+
+with the help of this we can mainatain the versions of over codes.
+
+Git Hub -- it is a repository where we can add our codes.
+
+Version downgrade and version upgrade is easily possible with git system
+
+when we create a code our code is in my System (local location)
+
+which i want to add to some remote location which is github.com
+
+----------------------------------------------------------------------------
+
+To work with the github you need to do 2 things
+
+download git hub software and install it your system (https://git-scm.com/downloads)
+
+create account on github.com
+
+Login to your Github account
+-----------------------------------------------
+
+click on new to create new Repository
+
+give repo name: firstApplication
+
+give some description scroll down and click on create repository.
+
+(you can see some set of commands)
+------------------------------------------------------------------------------------
+
+Open cmd and check git version
+
+>git version (you can see the git version if git is installed in your local system)
+
+Now move to the folder which you want to upload to Github repository.
+
+if you want to change the drive then type D: or E:
+
+in same drive if you want to chnage the folder then use cd command (change directory)
+
+example:
+
+ D:
+ cd foldername
+
+(means now you are in your folder)
+
+______________________________________________________________
+
+once you in your folder then initialized git in that folder
+
+git init (execute in cmd)
+
+2nd step is to configure github account
+
+git config --global user.email "sonam@gmail.com"
+
+3rd step is to add the files to staging area
+
+git add .
+
+4th step is to add staging area files to local repository
+
+git commit -m "this is my first version"
+
+5th step is to set up the branch
+
+git branch -M main
+
+6th set remote origin
+
+git remote add origin https://github.com/sonam-niit/FirstApplication.git
+
+7th step is to push code to remote repository
+
+git push -u origin main
+
+(when you execute this command first time it will ask you for authentication so select browser authentication
+so it will pop up the browser where you need to enter your github password. once that is varified you can refresh your repository and check the codes available on repo)
+
+___________________________________________________________________________________________________
+
+This you need to set up once
+
+from the next time if you change any files or folders then execute below commnads only
+first move to that folder using cd command
+git add .
+git commit -m "version 1.1"
+git push -u origin main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
